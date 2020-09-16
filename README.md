@@ -9,3 +9,12 @@
 #Stack:
 - Google Map Api
 
+#Workflow
+| - Create marker and style marker (Ok)
+| - Style map to classic (Ok)
+| - Drawing on map use layer (Ok)
+
+
+#Reference
+- https://codelabs.developers.google.com/codelabs/bigquery-maps-api/index.html?index=..%2F..index#2
+- https://anhvientham.com/du-lieu-vecter-va-raster-phan-tich-va-so-sanh-co-diem-gi-khac-nhau/
