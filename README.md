@@ -12,4 +12,5 @@
 #Reference
 - https://codepen.io/jphi/pen/egNGYR
 - json style reference (https://developers.google.com/maps/documentation/javascript/style-reference)
+- https://medium.com/flutter-community/implement-real-time-location-updates-on-google-maps-in-flutter-235c8a09173e
 
