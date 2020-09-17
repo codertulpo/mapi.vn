@@ -51,10 +51,36 @@ const initArea = [
 var map;
 // Init map
 async function initMap() {
+    const style = [
+        {
+            featureType: "poi",
+            stylers: [
+                {
+                    visibility: "off"
+                }
+            ]
+        },
+        {
+            featureType: "transit",
+            elementType: "labels.icon",
+            stylers: [
+                {
+                    visibility: "off"
+                }
+            ]
+        }
+    ];
+
+    //init map
     map = new google.maps.Map(document.getElementById('map'), {
         center: initCenter,
         zoom: 18
     });
+
+    // hide feature on map
+    map.setOptions({
+        styles: style
+      });
 
     // Traffic density
     var trafficLayer = new google.maps.TrafficLayer();

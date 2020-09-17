@@ -11,4 +11,5 @@
 
 #Reference
 - https://codepen.io/jphi/pen/egNGYR
+- json style reference (https://developers.google.com/maps/documentation/javascript/style-reference)
 
