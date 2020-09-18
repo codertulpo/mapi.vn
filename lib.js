@@ -90,8 +90,13 @@ async function initMap() {
     renderMap(map, icons, initArea);
 
     //render current user
-    let pos = await getGeolocation();
-    renderCurrentUser(map, pos);
+    //tracking user
+    setInterval(async function() {
+        let pos = await getGeolocation();
+        console.log(pos);
+        renderCurrentUser(map, pos);
+
+    }, 2000);
 }
 
 // Get geolocation
